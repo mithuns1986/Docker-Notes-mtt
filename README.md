@@ -13,7 +13,27 @@ A comprehensive guide to understanding and mastering Docker.
 | Security                   | Measures and best practices to secure Docker containers and images.            | <a href="https://github.com/djeada/Docker-Notes/blob/main/notes/06_security.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /></a>               |
 | Swarm                      | Introduction to Docker Swarm, a native clustering and orchestration tool.      | <a href="https://github.com/djeada/Docker-Notes/blob/main/notes/07_swarm.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /></a>                  |
 
+## Projects
 
+| Project           | Description                                                      | Link                                                                                                   |
+| ----------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| MySQL             | A relational database management system (RDBMS) based on SQL.     | <a href="https://github.com/djeada/Docker-Notes/blob/main/projects/mysql/README.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /></a> |
+| PostgreSQL        | An advanced open-source relational database management system.    | <a href="https://github.com/djeada/Docker-Notes/blob/main/projects/postgresql/README.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /></a> |
+| MongoDB           | A NoSQL database platform for scalable and high-performance needs. | <a href="https://github.com/djeada/Docker-Notes/blob/main/projects/mongodb/README.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /></a> |
+| Flask             | A lightweight web framework in Python for building web applications. | <a href="https://github.com/djeada/Docker-Notes/blob/main/projects/flask/README.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /></a> |
+| NodeJS            | A runtime environment for executing JavaScript outside of a browser. | <a href="https://github.com/djeada/Docker-Notes/blob/main/projects/nodejs/README.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /></a> |
+| VirtualBox Networking | Configuration and management of network settings in VirtualBox. | <a href="https://github.com/djeada/Docker-Notes/blob/main/projects/virtualbox_networking/README.md"><img src="https://img.icons8.com/color/344/markdown.png" height="50" /></a> |
+
+## Scripts
+
+| Script Name                     | Description                                                                                           | Link                                                                                              |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| docker_image_updater.py         | Script to update Docker images.                                                                       | <a href="https://github.com/djeada/Docker-Notes/blob/main/scripts/docker_image_updater.py"><img src="https://img.icons8.com/color/344/python.png" height="50" /></a> |
+| docker_compose_generator.py     | Generates a `docker-compose` file based on specified parameters.                                      | <a href="https://github.com/djeada/PythonScripts/blob/main/docker_compose_generator.py"><img src="https://img.icons8.com/color/344/python.png" height="50" /></a> |
+| image_cleaner.py                | Script to clean up old or unused Docker images.                                                       | <a href="https://github.com/djeada/Docker-Notes/blob/main/scripts/image_cleaner.py"><img src="https://img.icons8.com/color/344/python.png" height="50" /></a> |
+| container_runner.py             | Handles the launching of individual Docker containers.                                                | <a href="https://github.com/djeada/Docker-Notes/blob/main/scripts/container_runner.py"><img src="https://img.icons8.com/color/344/python.png" height="50" /></a> |
+| batch_container_runner.py       | Script designed to run multiple Docker containers in batches.                                          | <a href="https://github.com/djeada/Docker-Notes/blob/main/scripts/batch_container_runner.py"><img src="https://img.icons8.com/color/344/python.png" height="50" /></a> |
+| container_resource_monitor.py   | Monitors and reports on resource usage (like CPU, memory) of running containers.                       | <a href="https://github.com/djeada/Docker-Notes/blob/main/scripts/container_resource_monitor.py"><img src="https://img.icons8.com/color/344/python.png" height="50" /></a> |
 
 
 ## Assessing Your Docker Proficiency
