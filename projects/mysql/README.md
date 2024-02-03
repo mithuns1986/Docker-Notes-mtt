@@ -1,13 +1,51 @@
-## Setting Up a MySQL Docker Container
+# Project: Setting Up MySQL Database Using Docker
 
-In this guide, we'll demonstrate how to deploy a MySQL container using Docker and create a sample database with tables to get you started.
+## Objective
+
+The goal of this project is to set up a MySQL database using Docker. This is a beginner-friendly project designed to introduce Docker containerization concepts and basic database management skills.
+
+## Skills Learned
+
+- Docker container management
+- Basic MySQL database administration
+- Data persistence in Docker
+- Basic SQL queries for database interaction
+
+## Tools Needed
+
+- Docker installed on your system
+- Terminal or command prompt access
+- Optional: SQL client tool for database interaction (like MySQL Workbench, DBeaver, or phpMyAdmin)
+
+## System Diagram
+
+```
++--------------------------+
+|  Local Machine           |
+|  (Your Computer)         |
+|  +--------------------+  |
+|  | Docker             |  |
+|  | +-----------+      |  |       +--------------------------------+
+|  | | MySQL     |<--------------->| SQL Management Tool            |
+|  | | Container |      |  |       | (Accessing & Managing Database)|
+|  | +-----------+      |  |       +--------------------------------+
+|  |       ^            |  |
+|  |       |            |  |
+|  |       v            |  |
+|  |  +--------------+  |  |
+|  |  | Data Volume  |  |  |
+|  |  | (For         |  |  |
+|  |  | Persistence) |  |  |
+|  |  +--------------+  |  |
+|  +--------------------+  |
++--------------------------+
+```
 
 ### Launching the MySQL Container
 
 Initiate a MySQL container instance. It's handy to name your container, which allows you to refer to it easily later:
 
 ```
-bash
 docker run -d --name mysql_container -p 3306:3306 -e MYSQL_ROOT_PASSWORD=secret_pass mysql:latest
 ```
 
