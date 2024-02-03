@@ -1,3 +1,7 @@
+## TODO
+
+- THIS SHOULD BE PURE FLASK IN DOCKER
+
 ## Setting Up a Flask Application with Nginx in Docker
 
 This guide will detail how to deploy a Flask application using Docker, with Nginx acting as a reverse proxy.
