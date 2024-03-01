@@ -1,4 +1,4 @@
-# Project: Hosting a Static Website using Docker and Apache
+# Hosting a Static Website using Docker and Apache
 
 ## Objective
 
