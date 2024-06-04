@@ -1,5 +1,5 @@
 # Docker
-A comprehensive guide to understanding and mastering Docker.
+A comprehensive collection of notes on Docker, designed to help you understand and leverage Docker for containerization and DevOps practices. This repository covers a wide range of topics, from basic concepts to advanced techniques, providing valuable insights and practical examples for both beginners and experienced users.
 
 ## Notes
 
