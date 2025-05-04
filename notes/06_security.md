@@ -113,7 +113,7 @@ docker network inspect app_net --format '{{json .IPAM.Config}}'
 
 Verifying CIDR ranges avoids collisions with corporate networks, a subtle cause of connectivity failures that masquerade as security blocks.
 
-## Auditing, monitoring and incident response
+## Auditing, monitoring and incident response
 
 The `docker events` stream covered earlier doubles as an audit bus: every exec, attach, pull and push lands there. Feeding that stream into SIEM tooling satisfies “who did what, when” clauses in many compliance frameworks. Pair it with machine-readable SBOMs and CVE feeds, and you end up with real-time guardrails instead of quarterly checkbox exercises.
 
